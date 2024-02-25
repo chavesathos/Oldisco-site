@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Oldisco</title>
+    <link rel="icon" type="image/x-icon" href="./assets/pngegg.png">
+    <meta name="description" content="Loja online de venda e estilização de discos de vinil">
+    <meta name="author" content="Athos Silveira, Web Design">
+    <meta name="keywords" content="disco, vinil, loja, online, coleções">
+    <meta name="robots" content="index,follow">
+
+    <link rel="stylesheet" href="global.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+<body>
+    <div class="app">
+
+        <header>
+            <div class="logo">
+                <img src="./assets/pngegg.png" alt="Imagem Logo">
+                    <div class="logo-text"><span class="input">OLDISCO</span></div>
+            </div>
+            <nav>
+                <div class="togglebtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="navlinks">
+                    <li><a href="index.html" class="navigation-link">Home</a></li>
+                    <li><a href="collection.html" class="navigation-link">Coleções</a></li>
+                    <li><a href="#" class="navigation-link">Assessórios</a></li>
+                    <li><a href="#" class="navigation-link">Novidades</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+      <main>
+         <div class="container">
+
+            <section class="description">
+
+              <img class="img-contact"
+                   src="./assets/gramofone2.png" 
+                   alt="Gramofone">
+
+                <h3 class="title-contact"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                > Vamos conversar ! 
+                </h3>
+
+                <p class="paragrafo"
+                 data-aos="fade-up"
+                 data-aos-delay="300"
+                 data-aos-duration="800"
+                 data-aos-easing="ease-in-out"
+                 > Envie a nós uma mensagem sobre projetos, dúvidas, compras e etc...
+                </p>
+
+                <a  class="i-contact"
+                    href="https://wa.me/351924376890?text=Olá!+Tenho+um+projeto+para+vos+apresentar+:D"
+                    target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </section>
+
+            <div class="line"></div>
+
+            <section class="description">
+
+              <h3 class="title-form"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              > Envie a nós um e-mail ! 
+              </h3>
+             
+              <form action="https://formsubmit.co/a.thos_chaves@hotmail.com" id="form" method="POST">
+                 
+                <input type="hidden" name="_autoresponse" value="Recebemos a sua mensagem, obrigado(a) pelo contato e logo responderemos!">
+                <input type="hidden" name="_cc" value="athos.chaves94@gmail.com"/>  
+
+                <div class="input-field">
+                  <label for="name">Nome:</label>
+                  <input type="text" name="name" id="name">
+                  <div class="underline"></div>
+                </div>
+              
+                <div class="input-field">
+                  <label for="email">Email:</label>
+                  <input type="text" name="email" id="email">
+                  <div class="underline"></div>
+                </div>
+              
+                <div class="input-field">
+                  <label for="message"></label>
+                  <textarea placeholder="Escreva aqui sua mensagem..." name="message" id="message" cols="5" rows="5"></textarea>
+                </div>
+
+                <div
+                data-aos="fade-up"
+                data-aos-delay="600"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+               >
+                 <button class="button" href="#">ENVIAR</button>
+               </div>
+
+              </form>
+
+            </section>
+           
+         </div>
+      </main>
+
+      <footer>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+         </div>
+      </footer>
+
+    </div>
+
+    <!--typed js typing text effect-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="./js/header.js"></script>
+    <script src="./js/form.js"></script>
+
+</body>
+</html>
