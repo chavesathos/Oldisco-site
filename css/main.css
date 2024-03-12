@@ -47,7 +47,6 @@ main .container {
     height: auto;
     bottom: 10px;
     padding: 0 30px;
-    margin-top: 50px;
   }
 
 /*estilos dos conteudos da pagina*/
@@ -64,8 +63,12 @@ main .container {
 }
 
 .description p {
+    width: 100%;
     font-size: 18px;
-    margin-bottom: 28px;
+}
+
+.paragrafo {
+  margin-bottom: 40px;
 }
 
 .description div {
@@ -76,6 +79,7 @@ main .container {
 .description div .button {
     width: 50%;
     padding: 10px 0;
+    margin-left: 25%;
     margin-bottom: 40px;
     border-radius: 3px;
     color: var(--creative);
@@ -104,7 +108,7 @@ main .container {
   } 
 }
 
-@media(max-width:500px) {
+@media(max-width:630px) {
   main img {
     width: 100%;
   }

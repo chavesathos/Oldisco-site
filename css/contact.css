@@ -1,5 +1,11 @@
+.heading .wrapper .text-contact {
+    font: 400 1.5rem "Mukta", sans-serif;
+    left: 250px;
+    
+  }
+
 .img-contact {
-    width: 100%;   
+    width: 25.5rem;   
 }
 
 .title-contact, 
@@ -10,15 +16,18 @@
     align-items: center;
  }
 
- .i-contact,
- .img-contact {
+ .paragrafo-contact {
+    margin-bottom: 10px;
+ }
+
+ .i-contact {
     margin: auto;
     display: block;
 }
 
 .title-contact {
-    font-size: xx-large;
-    margin-top: 20px;
+    font-size: x-large;
+    margin-top: 0px;
     color:var(--creative);
     font-weight: 300;
     letter-spacing: 2px;
@@ -27,7 +36,7 @@
 
 .title-form {
     font-size: x-large;
-    margin: 30px 0;
+    margin: 10% 5%;
     color:var(--text);
     font-weight: 300;
     letter-spacing: 2px;
@@ -126,5 +135,11 @@ textarea {
         height: 700px;
         border-left: 1px solid var(--decoration);
         margin: 0 10%;
+    }
+  }
+
+  @media(max-width:1240px) {
+    .description div .btn-form {
+        margin-left: 15%;
     }
   }

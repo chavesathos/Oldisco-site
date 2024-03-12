@@ -3,6 +3,7 @@
 @import url("./css/footer.css");
 @import url("./css/collection.css");
 @import url("./css/contact.css");
+@import url("./css/history.css");
 
 
 * {
@@ -20,6 +21,7 @@
     color: var(--text);
     font: 400 1rem "Mukta", sans-serif;
     background: #222;
+    
   }
 
   a {

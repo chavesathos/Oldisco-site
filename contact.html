@@ -19,8 +19,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
 <body>
@@ -40,8 +38,9 @@
                 <ul class="navlinks">
                     <li><a href="index.html" class="navigation-link">Home</a></li>
                     <li><a href="collection.html" class="navigation-link">Coleções</a></li>
+                    <li><a href="#" class="navigation-link">Gramofones</a></li>
                     <li><a href="#" class="navigation-link">Assessórios</a></li>
-                    <li><a href="#" class="navigation-link">Novidades</a></li>
+                    <li><a href="#" class="navigation-link gravadora">Gravadora</a></li>
                 </ul>
             </nav>
         </header>
@@ -50,25 +49,50 @@
          <div class="container">
 
             <section class="description">
+             
+              <div class="heading">
+                <img src="./assets/gramofone-3.png" alt="Gramofone" class="img-contact">
+                <section class="wrapper">
+                    <div class="offset">
+                      <h2 class="text text-contact animate-before">Shocking Blue - “Love Buzz”</h2>
+                    </div>
+                    <div class="offset">
+                      <h2 class="text text-contact animate-before">Ana Moura - “Andorinhas”</h2>
+                    </div>
+                    <div class="offset">
+                      <h2 class="text text-contact animate-before">The Vaselines - “Son of a Gun”/”Molly’s Lips”</h2>
+                    </div>
+                    <div class="offset">
+                      <h2 class="text text-contact animate-before">Led Zeppelin - “Immigrant Song”</h2>
+                    </div>
+                    <div class="offset">
+                        <h2 class="text text-contact animate-before">The Velvet Underground - “Here She Comes Now”</h2>
+                      </div>
+                      <div class="offset">
+                        <h2 class="text text-contact animate-before">Marilia Mendonça - “Todos Os Cantos”</h2>
+                      </div>
+                      <div class="offset">
+                        <h2 class="text text-contact animate-before">Bob Marley - “Is This LOve”</h2>
+                      </div>
+                      <div class="offset">
+                        <h2 class="text text-contact animate-before">Elis Regina - “Como Nossos Pais”</h2>
+                      </div>
+                  </section>
+                  <div class="grid-container">
+                    <div class="grid"></div>
+                    <div class="grid"></div>
+                    <div class="grid"></div>
+                    <div class="grid"></div>
+                    <div class="grid"></div>
+                    <div class="grid"></div>
+                    <div class="grid"></div>
+                    <div class="grid"></div>
+                  </div>
+                </div>
 
-              <img class="img-contact"
-                   src="./assets/gramofone2.png" 
-                   alt="Gramofone">
+                <h3 class="title-contact"> Vamos conversar ! </h3>
 
-                <h3 class="title-contact"
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-easing="ease-in-out"
-                > Vamos conversar ! 
-                </h3>
-
-                <p class="paragrafo"
-                 data-aos="fade-up"
-                 data-aos-delay="300"
-                 data-aos-duration="800"
-                 data-aos-easing="ease-in-out"
-                 > Envie a nós uma mensagem sobre projetos, dúvidas, compras e etc...
-                </p>
+                <p class="paragrafo-contact"> Envie à nós uma mensagem sobre projetos, dúvidas, compras e etc...</p>
 
                 <a  class="i-contact"
                     href="https://wa.me/351924376890?text=Olá!+Tenho+um+projeto+para+vos+apresentar+:D"
@@ -81,12 +105,7 @@
 
             <section class="description">
 
-              <h3 class="title-form"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-easing="ease-in-out"
-              > Envie a nós um e-mail ! 
-              </h3>
+              <h3 class="title-form"> Envie a nós um e-mail !</h3>
              
               <form action="https://formsubmit.co/a.thos_chaves@hotmail.com" id="form" method="POST">
                  
@@ -110,13 +129,8 @@
                   <textarea placeholder="Escreva aqui sua mensagem..." name="message" id="message" cols="5" rows="5"></textarea>
                 </div>
 
-                <div
-                data-aos="fade-up"
-                data-aos-delay="600"
-                data-aos-duration="800"
-                data-aos-easing="ease-in-out"
-               >
-                 <button class="button" href="#">ENVIAR</button>
+                <div>
+                 <button class="button btn-form" href="#">ENVIAR</button>
                </div>
 
               </form>
@@ -131,20 +145,14 @@
           <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
           <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
           <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
          </div>
       </footer>
 
     </div>
 
-    <!--typed js typing text effect-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-
     <script src="./js/header.js"></script>
     <script src="./js/form.js"></script>
+    <script src="./js/delay.js"></script>
 
 </body>
 </html>

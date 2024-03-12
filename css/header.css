@@ -63,6 +63,13 @@ nav .navlinks li a{
      margin-right: 2.5rem;
 }
 
+nav .navlinks li .gravadora{
+    color:#17d6eb;
+}
+nav .navlinks li .gravadora:hover{
+    color:#0e8592;
+}
+
 nav .navigation-link {
     font-size: 14px;
     font-weight: 300;
